@@ -32,4 +32,5 @@ int main()
 {
 	cout<<add(1, 2)<<endl;
 	cout<<sub(3,2)<<endl;
+	cout<<"hello world!";
 }
