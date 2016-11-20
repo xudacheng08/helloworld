@@ -20,9 +20,16 @@ int add(int a, int b)
 	arr[1] = b;
 
 	return add(arr, 2);
+
+}
+
+int sub(int a, int b)
+{
+	return a - b;
 }
 
 int main()
 {
 	cout<<add(1, 2)<<endl;
+	cout<<sub(3,2)<<endl;
 }
