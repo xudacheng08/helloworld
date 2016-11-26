@@ -12,16 +12,7 @@ int add(int* a, int len)
 	return sum;
 }
 
-int add(int a, int b)
-{
-	int arr[2];
-	
-	arr[0] = a;
-	arr[1] = b;
 
-	return add(arr, 2);
-
-}
 
 int sub(int a, int b)
 {
